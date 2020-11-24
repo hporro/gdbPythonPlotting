@@ -18,7 +18,15 @@ Then you have to use gdb to debugg the compiled file. The .gdbinit file in the r
 gdb a.out
 `````
 
-Then run the programm in gdb (r command), and when it reaches the breakpoint you can use the PlotTriangle command defined in plottGraph.py with the local variable t as argument (PlotTriangle t). Your browser should display an image similar to the following:
+Then run the programm in gdb (r command), and when it reaches the breakpoint you can use the PlotTriangle command defined in plottGraph.py with the local variable t as argument (PlotTriangle t).
+
+
+```bash
+(gdb) r
+(gdb) PlotTriangle t
+`````
+
+Your browser should display an image similar to the following:
 
 ![triangle](https://github.com/hporro/gdbPythonPlotting/blob/master/resources/triangle.png)
 
