@@ -1,4 +1,4 @@
-gdbPythonPlotting is a repository to show how to make plotting commands for gdb debbugging C++ applications, using gdb's python API (mostly to debug graphical apps), and Plotly shapes.
+gdbPythonPlotting is a repository to show how to make plotting commands for gdb debbugging C++ applications, using gdb's python API and Plotly shapes.
 
 ## Requirements 
 
